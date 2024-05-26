@@ -12,7 +12,7 @@ function App() {
         <h1 className="My-Name">NICOLAS ROMITO</h1>
         <h5 className="My-Text">
             hola soy un texto de prueba <br />
-            y solo estoy para testear
+            y solo estoy para algo
         </h5>
         <a href="https://api.whatsapp.com/send?phone=1125678989&text=Hola Nicolas" target="_blank">Enviar mensaje por WhatsApp</a>
         <a
