@@ -3,22 +3,28 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div className="container">
+      <div className="colum1">
+
+      </div>
+      <div className="colum2">
+        <h4 className="My-Title">Desarrollador .NET</h4>
+        <h1 className="My-Name">NICOLAS ROMITO</h1>
+        <h5 className="My-Text">
+            hola soy un texto de prueba <br />
+            y solo estoy para testear
+        </h5>
+        <a href="https://api.whatsapp.com/send?phone=1125678989&text=Hola Nicolas" target="_blank">Enviar mensaje por WhatsApp</a>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+            className="App-link"
+            href="https://github.com/nicolasromito"
+            target="_blank"
+            rel="noopener noreferrer"
         >
-          Learn React
+            Mi git
         </a>
-      </header>
     </div>
+</div>
   );
 }
 
